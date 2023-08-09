@@ -1,4 +1,5 @@
-*,
+
+ *,
 *::after,
 *::before {
   margin: 0;
@@ -6,27 +7,26 @@
 }
 body{
  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- box-sizing: border-box; 
- color: #662d91!important; 
+ box-sizing: border-box;
+ color: #662D91!important;
 }
 header{
     display: flex;
     background-color:rgb(246, 180, 58);
-    color:  #662d91!important;
+    color:  #662D91!important;
     padding: 35px;
     justify-content: space-between;
     align-items:left ;
     height: 30px;
 }
 header div img{
- width: 100px; 
+ width: 100px;
  height: auto;
 }
 h1{
   font-size: 50px;
   font-style: inherit;
   text-align: center;
-
 }
 p{
   font-size:large;
@@ -37,7 +37,6 @@ nav{
   display: flex;
   justify-content: center;
   margin-top: 5px;
-
 }
 nav a{
   text-decoration: none;
@@ -55,7 +54,6 @@ img{
  h2{
   align-items: center;
   text-align: center;
-
 }
 .images{
   display: flex;
@@ -64,22 +62,17 @@ img{
   margin: 50px 50px;
   gap: 20px ;
 }
-
 footer{
-background-color: #662d91;
+background-color: #662D91;
 color: white;
 padding: 10px;
 text-align: center;
-
 }
-  
-
-@media screen and (max-width: 960px) 
+@media screen and (max-width: 960px)
   {
 .header{
   flex-direction: column;
   height: auto;
-  
 }
 .content-left{
   width:50px;
@@ -93,4 +86,3 @@ img{
   width: 100%;
 }
 }
-  
